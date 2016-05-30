@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="description" content="">
+<meta name="author" content="Golismero Team">
+
+<title>Golismero Project. The web knife.</title>
+
+<!-- Fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,300italic,400italic,600italic,700italic|Droid+Serif:400,400italic">
+<link rel="stylesheet" href="assets/fonts/novecento/stylesheet.css">
+<link rel="stylesheet" href="assets/icons/glyphicons/style.min.css">
+<link rel="stylesheet" href="assets/icons/font-awesome/font-awesome.min.css">
+
+<!-- Styles -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.min.css">
+
+<link rel="stylesheet" href="assets/css/theme-dark.css">
+
+<!-- Plugins -->
+<link rel="stylesheet" href="assets/plugins/royalslider/royalslider.min.css">
+<link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/plugins/mfp/jquery.mfp.css">
+
+<link rel="shortcut icon" href="golismero/img/favicon.png">
+
+<!-- Additional styles -->
+<style>
+#culture {
+	background-image: url("golismero/parallax/2.jpg");
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="site-loader"></div>
+
+<section id="home" class="site-splash fullscreen">
+
+	<div class="splash-slider">
+
+		<div class="splash-content">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="splash-text">
+							<h4 class="splash-intro"><a href="#">Hello there!</a></h4>
+							<h1 class="splash-headline">We are the <span class="text-primary">GoLismero</span> Group</h1>
+							<div class="splash-description">
+								<p>A free software application to combine all scanners.</p>
+							</div>
+							</div>
+							<a class="btn btn-primary btn-lg" href="https://github.com/golismero/golismero/archive/master.zip">Download GoLismero 2.0</a>
+		
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="splash-content">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="splash-text">
+							<h4 class="splash-intro"><a href="#">Combine results</a></h4>
+							<h1 class="splash-headline">Unification</h1>
+							<div class="splash-description">
+								<p>Get a report vulnerabilities without duplicates from open source scanners for auditing. </p>
+							</div>
+							</div>
+							<a class="btn btn-primary btn-lg" href="https://github.com/golismero/golismero/archive/master.zip">Download GoLismero 2.0</a>
+		
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		<div class="splash-content">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="splash-text">
+							<h4 class="splash-intro"><a href="#">Cyclical scanning</a></h4>
+							<h1 class="splash-headline">Feedback</h1>
+							<div class="splash-description">
+								<p>Run tests against defined targets before and during scanning.</p>
+							</div>
+						</div>
+						<a class="btn btn-primary btn-lg" href="https://github.com/golismero/golismero/archive/master.zip">Download GoLismero 2.0</a>
+		
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		<div class="splash-content">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="splash-text">
+							<h4 class="splash-intro"><a href="#">Multiscanner</a></h4>
+							<h1 class="splash-headline">Automation</h1>
+							<div class="splash-description">
+								<p>Forget about having to run different scanning tools.</p>
+							</div>
+						</div>
+						<a class="btn btn-primary btn-lg" href="https://github.com/golismero/golismero/archive/master.zip">Download GoLismero 2.0</a>
+		
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+						
+		<div class="cycle-next"></div>
+		<div class="cycle-prev"></div>
+		
+		
+	
+	</div>
+
+	<div class="section-media section-media-video">
+		<div class="overlay"></div>
+		<div class="splash-media splash-media-img" data-background="golismero/img/frame0.jpg" style="z-index: 3;position:absolute;">
+			<div class="overlay"></div>
+		</div>
+		<video style="width: 100%; height: 100%;z-index:4;position:absolute;" loop autoplay>
+			<!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
+			<source type="video/webm" src="golismero/videos/golismeroc.webm">
+			<!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+			<source type="video/mp4" src="golismero/videos/golismeroc.mp4">
+		</video>
+
+	</div>
+
+	<div class="splash-feedback">
+		<span class="mouse">
+			<span class="fa fa-angle-down"></span>
+		</span>
+		<span class="caption">Scroll</span>
+	</div>
+
+</section>
+
+<header class="site-header th-dark">
+
+	<div class="header-inner">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="header-table col-md-12">
+
+					<div class="brand">
+						<a href="#">
+							<img src="golismero/img/logo-wide.png" alt="Golismero">
+						</a>
+					</div>
+
+					<nav class="main-nav">
+						<a href="#" class="nav-toggle"></a>
+						<ul class="nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#golismero">Golismero</a></li>
+							<li><a href="#download">Download</a></li>
+							<li><a href="#documentation">Documentation</a></li>
+							<li><a href="#about">About</a></li>	
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
+
+<div class="site-wrapper">
+	
+	<div class="site-body">
+
+
+		<section id="golismero" class="section th-dark">
+
+			<div class="section-row-container">
+
+				<div class="section-row">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-lg-12">
+
+								<h1 class="section-title show-counter">
+									Golismero Project
+									<small>GoLismero is a free software framework for security testing. It's currently geared towards web security, but it can easily be expanded to other kinds of scans. It can run their own security tests and manage a lot of well known security tools (OpenVas, Wfuzz, SQLMap, DNS recon, robot analyzer...) take their results, feedback to the rest of tools and merge all of results. And all of this automatically.</small>
+								</h1>
+
+							</div>
+
+						</div>
+
+						<div class="row">
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="gi gi-unlock" data-animation-name="bounceIn"></i>
+										<i class="gi gi-unlock shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Free software</h4>
+										<p class="service-description">
+											The GoLismero community can contribute their ideas and improve GoLismero. In this way, updates are achieved more often and new functions are frecuently incorporated.
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="gi gi-display" data-animation-name="bounceIn"></i>
+										<i class="gi gi-display shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Real platform independence</h4>
+										<p class="service-description">
+											Tested on Windows, Linux, *BSD and OS X.
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="gi gi-package" data-animation-name="bounceIn"></i>
+										<i class="gi gi-package shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">No native library dependencies</h4>
+										<p class="service-description">
+											All of the framework has been written in pure Python.
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="spacer-20 hidden-xs hidden-sm"></div>
+
+						<div class="row">
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="fa fa-dashboard" data-animation-name="bounceIn"></i>
+										<i class="fa fa-dashboard shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Good performance</h4>
+										<p class="service-description">
+											Compared with other frameworks written in Python and other scripting languages, GoLismero has the best performance.
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="gi gi-group" data-animation-name="bounceIn"></i>
+										<i class="gi gi-group shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Very easy to use.</h4>
+										<p class="service-description">
+											With very few commands, or even a single command, you can launch scans and report vulnerabilities. 
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="fa fa-gears" data-animation-name="bounceIn"></i>
+										<i class="fa fa-gears shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Plugin development</h4>
+										<p class="service-description">
+											 New plugins can be developed using our cloud-based IDE. Writing plugins is easier than ever!
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+								
+						</div>
+						
+						<div class="spacer-20 hidden-xs hidden-sm"></div>
+
+						<div class="row">
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="fa fa-sitemap" data-animation-name="bounceIn"></i>
+										<i class="fa fa-sitemap shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Unifies the results</h4>
+										<p class="service-description">
+											The framework also collects and unifies the results of well known tools: sqlmap, xsser, openvas, dnsrecon, theharvester...
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="fa fa-puzzle-piece" data-animation-name="bounceIn"></i>
+										<i class="fa fa-puzzle-piece shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Integration with standards</h4>
+										<p class="service-description">
+											CWE, CVE, OWASP and many others.
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<div class="service">
+
+									<div class="service-icon">
+										<i class="gi gi-server" data-animation-name="bounceIn"></i>
+										<i class="gi gi-server shadow-icon" data-animation-name="fadeInLeft" data-animation-delay="0"></i>
+									</div>
+									<div class="service-info">
+										<h4 class="service-name">Cluster deployment</h4>
+										<p class="service-description">
+											 Designed for cluster deployment in mind (available soon).
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		
+		<section id="testimonials" class="section th-dark" data-background="golismero/parallax/1.jpg">
+
+			<div class="section-row-container">
+
+				<div class="section-row three-quarters-padding-top three-quarters-padding-bottom">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-10 col-md-push-1">
+
+								<div class="testimonial-slider owl-carousel" data-auto-height="true" data-single-item="true" data-animation-name="rotateInUpLeft">
+
+									<div class="testimonial">
+										<blockquote>
+											<p>Amazing multiplatform framework, integrated with the best tools (sqlmap, openvas, xsser, nmap ...). Very powerful, highly modular thanks to its plugins. The report generated is the best I've seen.</p>
+											<small>Alejandro Saiz <br><cite>Senior security auditor <br><a href="https://twitter.com/ocixela" target="_blank">@ocixela</a></cite></small>
+										</blockquote>
+									</div>
+
+									<div class="testimonial">
+										<blockquote>
+											<p>GoLismero enables me to scan more assets more often. It is a good tool for discovery vulnerabilities with a good speed and accuracy. It is free an open source! any more?</p>
+											<small>Pedro <br><cite>Navaja Negra conference organizer<br><a href="https://twitter.com/NN2ed_s4ur0n" target="_blank">@NN2ed_s4ur0n</a></cite></small>
+										</blockquote>
+									</div>
+									
+									<div class="testimonial">
+										<blockquote>
+											<p>Due to lack of security professionals, automation in security audits is increasingly important. Golismero is focused in this goal and does it perfectly by integrating a lot of security tools, reporting the results in a practical way, and allowing developers to include new plugins.</p>
+											<small>Rafa Sánchez<br><cite>Security analyst and CISA Certified<br><a href="https://twitter.com/R_a_ff_a_e_ll_o" target="_blank">@R_a_ff_a_e_ll_o</a></cite></small>
+										</blockquote>
+									</div>
+									
+									
+									<div class="testimonial">
+										<blockquote>
+											<p>Playing with GoLismero 2.0.0b5 .. I have to admite:Beautiful code. Reminds me COREvidence - The Multi-Engines Vuln Solution i made.</p>
+											<small>Twitter<cite><a href="https://twitter.com/ToolsWatch/status/444457553213526016:" target="_blank">@ToolsWatch</a></cite></small>
+										</blockquote>
+									</div>
+									
+									<div class="testimonial">
+										<blockquote>
+											<p>Very good tools for Pentesting.</p>
+											<small>Twitter<cite><a href="https://twitter.com/banchiero/status/434316800117858304" target="_blank">@banchiero</a></cite></small>
+										</blockquote>
+									</div>
+									
+									<div class="testimonial">
+										<blockquote>
+											<p>Golismero, framework joven y prometedor que permite automatizar las tareas de auditoria web, desde la enumeración hasta la explotación.</p>
+											<small>Jaime a.k.a. DragonJar<cite><a href="https://twitter.com/DragonJAR/status/585920054228815873" target="_blank">@DragonJar</a></cite></small>
+										</blockquote>
+									</div>
+	
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="section-overlay"></div>
+
+		</section>
+
+		<section id="download" class="section">
+
+			<div class="section-row-container">
+
+				<div class="section-row">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-lg-12">
+
+								<h1 class="section-title show-counter">
+									Download
+									<small>Check out our project and we’re sure you’ll immediately fall in love. Download the code directly from the git repository in GitHub or compressed.</small>
+								</h1>
+
+							</div>
+
+						</div>
+
+						<div class="row">
+						
+							<div class="col-md-4">
+
+								<div class="pricing-table" data-animation-name="flipInY">
+									<h2 class="price">
+										Golismero Development
+									</h2>
+									<h5 class="name">Unestable version</h5>
+									<div class="features">
+										<ul>
+											<li>GitHub repository</li>
+											<li>This repository contains the UNSTABLE version of GoLismero. Use at your own risk!</li>
+										</ul>
+									</div>
+									<a href="https://github.com/golismero/golismero-devel/archive/master.zip" class="btn btn-sm btn-primary btn-block">Download</a>
+								</div>
+
+							</div>
+                            
+                            
+
+							<div class="col-md-4">
+
+								<div class="pricing-table featured" data-animation-name="flipInY">
+									<h2 class="price">
+										Golismero Project
+									</h2>
+									<h5 class="name">Stable Version 2.0 Beta 3</h5>
+									<div class="features">
+										<ul>
+											<li>GitHub repository</li>
+                                        	<li><span>python</span> 2.7.x</li>
+                                            <li>Works on almost any OS: <span>OS X, Windows, Linux, BSD, or Raperry Pi.</span></li>
+                                            <li>OpenVAS, nmap, and ssl scan spiderfoot to complete installation functionality.</li>
+											<li><span>20</span> plugins</li>
+										</ul>
+									</div>
+									<a href="https://github.com/golismero/golismero/archive/master.zip" class="btn btn-sm btn-primary btn-block">Download</a>
+								</div>
+
+							</div>
+                            
+                            <div class="col-md-4">
+
+								<div class="pricing-table" data-animation-name="flipInY">
+									<h2 class="price">
+										Plugins
+									</h2>
+									<h5 class="name">Plugins IDE</h5>
+									<div class="features">
+										<ul>
+											<li>GitHub repository</li>
+                                        	<li>Learn how to create plugins to GoLismero with this IDE. Write code is easy.</li>
+										</ul>
+									</div>
+									<a href="https://github.com/golismero/plugins-app/archive/master.zip" class="btn btn-sm btn-primary btn-block">Download</a>
+								</div>
+
+							</div>
+
+						</div>
+						
+						<div class="row">
+						
+							
+                            
+                            <div class="col-md-4">
+
+								<div class="pricing-table" data-animation-name="flipInY">
+									<h2 class="price">
+										Fingerprinter
+									</h2>
+									<h5 class="name">Many signatures of web servers</h5>
+									<div class="features">
+										<ul>
+											<li>GitHub repository</li>
+                                        	<li>GoLismero fingerprinter is a tool that aims to compile as many signatures of web servers as possible and make a large database.</li>
+										</ul>
+									</div>
+									<a href="https://github.com/golismero/golismero-fingerprinter/archive/master.zip" class="btn btn-sm btn-primary btn-block">Download</a>
+								</div>
+
+							</div>
+							
+							<div class="col-md-4">
+
+								<div class="pricing-table" data-animation-name="flipInY">
+									<h2 class="price">
+										OpenVAS Connector
+									</h2>
+									<h5 class="name">OpenVAS library</h5>
+									<div class="features">
+										<ul>
+											<li>GitHub repository</li>
+                                        	<li>This project is a Python library to connect and manage the latest OpenVAS servers using the OMPv4 protocol.</li>
+                                        	<li>There is an <a href="https://pypi.python.org/pypi/openvas.omplib" target="_blank">official python library</a> for OpenVAS, but it doesn't work with OMPv4 based versions (OpenVAS 6).</li>
+										</ul>
+									</div>
+									<a href="https://github.com/golismero/openvas_lib/archive/master.zip" class="btn btn-sm btn-primary btn-block">Download</a>
+								</div>
+
+							</div>
+						
+							<div class="col-md-4">
+
+								<div class="pricing-table" data-animation-name="flipInY">
+									<h2 class="price">
+										Branding
+									</h2>
+									<h5 class="name">Logo</h5>
+									<div class="features">
+										<ul>
+                                        	<li>This .zip file includes the GoLismero logo:</li>
+                                            <li><span>AI and EPS </span>vectorial format.</li>
+                                            <li><span>PNG</span> transparent.</li>
+											<li><span>JPG</span> high quality in horizontal layout. Multiple background color.</li>
+										</ul>
+									</div>
+									<a href="golismero/download/branding/branding.zip" class="btn btn-sm btn-primary btn-block">Download</a>
+								</div>
+
+							</div>
+						
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="documentation" class="section th-dark">
+
+			<div class="section-row-container">
+
+				<div class="section-row">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-lg-3">
+
+								<h1 class="section-title show-counter">
+									Docs
+									<small>We have prepared many different documents with varying levels of detail.</small>
+								</h1>
+
+							</div>
+
+							<div class="col-lg-9">
+
+								<div class="macbook-slider">
+
+									<div class="wrap">
+
+										<div class="royalSlider rsHydrogen">
+
+											<div class="slider-media project-slide">
+
+												<figure>
+													<img src="golismero/projects/slider/thumbs/1.jpg" alt="" class="rsImg">
+													<figcaption>
+														<span>Plugin Editor</span>
+													</figcaption>
+												</figure>
+												<div class="overlay transparent">
+													<ul>
+														<li class="mfp-zoom"><a href="golismero/projects/slider/1.jpg"><i class="gi gi-resize-full"></i></a></li>
+														</ul>
+												</div>
+											</div>
+
+											<div class="slider-media project-slide">
+												<figure>
+													<img src="golismero/projects/slider/thumbs/2.jpg" alt="" class="rsImg">
+													<figcaption>
+														<span>Dynamic Reports</span>
+													</figcaption>
+												</figure>
+												<div class="overlay transparent">
+													<ul>
+														<li class="mfp-zoom"><a href="golismero/projects/slider/2.jpg"><i class="gi gi-resize-full"></i></a></li>
+														</ul>
+												</div>
+											</div>
+
+											<div class="slider-media project-slide">
+												<figure>
+													<img src="golismero/projects/slider/thumbs/3.jpg" alt="" class="rsImg">
+													<figcaption>
+														<span>Golismero console</span>
+													</figcaption>
+												</figure>
+												<div class="overlay transparent">
+													<ul>
+														<li class="mfp-zoom"><a href="golismero/projects/slider/3.jpg"><i class="gi gi-resize-full"></i></a></li>
+													</ul>
+												</div>
+											</div>
+											
+
+										</div>
+
+									</div>
+
+								</div>
+								
+								
+              					<p>GoLismero project aims to create a good documentation, and for that, we have prepared many different documents with varying levels of detail, depending on what you need to do:</p>
+              <ul>
+                <li>For everybody:&nbsp;&nbsp;&nbsp;Howtos and manuals
+                    <ul>
+                        <li>HOWTO: Installing GoLismero + OpenVAS: <a href="http://blog.golismero-project.com/2013/09/howto-installing-golismero-openvas.html" target="_blank">EN →</a> | <a href="http://blog-es.golismero-project.com/2013/09/howto-instalacion-de-golismero-openvas.html" target="_blank">ES →</a></li>
+                    </ul>
+                </li>
+                <!--
+                <li>For everybody:&nbsp;&nbsp;&nbsp;<a href="http://www.golismero-project.com/doc/plugin_list/index.html" target="_blank">Quick list of plugins and a brief explanation:</a></li>
+                <li>For plugin developers: &nbsp;&nbsp;&nbsp;<a href="http://www.golismero-project.com/doc/plugin_developers/index.html" target="_blank">API documentation</a></li>
+                <li>For advanced development: <a href="http://golismero-project.com/doc/fulldoc/index.html" target="_blank">full GoLismero doc</a>.</li>
+              	-->
+              </ul>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="section-row no-padding-top">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-8 col-md-push-4">
+
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Want to See More?">Want to See More?</span>
+								</h2>
+
+							</div>
+
+						</div>
+
+						<div class="row" data-animation-chain-duration="1200">
+
+							<div class="col-md-12">
+
+								<div class="projects">
+
+									<div class="filter">
+										<span class="active-label visible-xs" data-toggle="dropdown">All</span>
+										<ul>
+											<li class="active"><a href="#" data-filter="*">All</a></li>
+											<li><a href="#" data-filter=".plugins">Plugin Editor</a></li>
+											<li><a href="#" data-filter=".console">Golismero console</a></li>
+											<li><a href="#" data-filter=".reports">Dynamic Reports</a></li>
+										</ul>
+									</div>
+
+									<div class="items">
+
+										<div class="grid-sizer"></div>
+										<div class="gutter-sizer"></div>
+
+										<div class="project plugins" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/1.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/1.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">IDE Layout</h4>
+												<div class="project-categories">Plugin Editor</div>
+											</div>
+										</div>
+
+										<div class="project plugins" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/2.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/2.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Assistant</h4>
+												<div class="project-categories">Plugin Editor</div>
+											</div>
+										</div>
+
+										<div class="project plugins" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/3.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/3.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Context Menu</h4>
+												<div class="project-categories">Plugin Editor</div>
+											</div>
+										</div>
+
+										<div class="project plugins" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/4.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/4.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Wizard</h4>
+												<div class="project-categories">Plugin Editor</div>
+											</div>
+										</div>
+
+										<div class="project plugins" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/5.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/5.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Plugin List</h4>
+												<div class="project-categories">Plugin Editor</div>
+											</div>
+										</div>
+
+										<div class="project reports" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/6.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/6.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Widgets</h4>
+												<div class="project-categories">Dynamic Reports</div>
+											</div>
+										</div>
+
+										<div class="project reports" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/7.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/7.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Vulnerabilities summary</h4>
+												<div class="project-categories">Dynamic Reports</div>
+											</div>
+										</div>
+
+										<div class="project reports" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/8.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/8.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Technical report</h4>
+												<div class="project-categories">Dynamic Reports</div>
+											</div>
+										</div>
+                                        
+                                         <div class="project reports" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/9.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/9.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Report configuration</h4>
+												<div class="project-categories">Dynamic Reports</div>
+										  </div>
+										</div>
+                                        
+                                        <div class="project reports" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/10.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/10.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Customize styles</h4>
+												<div class="project-categories">Dynamic Reports</div>
+										  </div>
+										</div>
+										
+										<div class="project console" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/11.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/11.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Starting scan</h4>
+												<div class="project-categories">GoLismero Console</div>
+										  </div>
+										</div>
+										
+										<div class="project console" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/12.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/12.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Discovery Stage</h4>
+												<div class="project-categories">GoLismero Console</div>
+										  </div>
+										</div>
+                                       
+                                        <div class="project console" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/13.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/13.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Reconaissance Stage</h4>
+												<div class="project-categories">GoLismero Console</div>
+										  </div>
+										</div>
+                                        
+                                        <div class="project console" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/14.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/14.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Reporting Stage</h4>
+												<div class="project-categories">GoLismero Console</div>
+										  </div>
+										</div>
+										
+										<div class="project console" data-animation-name="fadeInDown">
+											<div class="project-image">
+												<img src="golismero/projects/thumbs/15.jpg" alt="">
+												<div class="overlay">
+													<ul class="actions">
+														<li class="mfp-zoom">
+															<a href="golismero/projects/15.jpg"><i class="gi gi-resize-full"></i></a>
+														</li>
+														
+													</ul>
+												</div>
+											</div>
+											<div class="project-info">
+												<h4 class="project-name">Scanning non intrusive Stage</h4>
+												<div class="project-categories">GoLismero Console</div>
+										  </div>
+										</div>
+										
+										
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="section th-dark" data-background="golismero/parallax/3.jpg">
+
+			<div class="section-row-container">
+
+				<div class="section-row three-quarters-padding-top three-quarters-padding-bottom">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-12">
+							
+								<div class="tweet-slider hydrogen-theme">
+
+									<div id="containerTweets">
+								<a class="twitter-timeline" href="https://twitter.com/golismero_pro" data-widget-id="737301086583816192">Tweets por el @golismero_pro.</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+									</div>
+    											
+    							</div>
+									
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="section-overlay"></div>
+
+		</section>
+
+		
+		
+		<section id="about" class="section th-dark">
+
+			<div class="section-row-container">
+
+				<div class="section-row">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-lg-3">
+
+								<h1 class="section-title show-counter">
+									Who We Are
+									<small>The who, what and why our group exists</small>
+								</h1>
+
+							</div>
+
+							<div class="col-lg-8 col-lg-push-1">
+
+								<div class="row">
+
+									<div class="col-md-12">
+
+										<p class="lead">
+											
+											We are <a href="#">Golismero team</a> has a passion for security and get challenged to make security audits in companies with greater speed and quality results.
+										</p>
+
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<div class="col-md-6">
+
+										<div class="icon-box" data-animation-name="fadeInUp">
+											<div class="icon">
+												<i class="gi gi-magic"></i>
+											</div>
+											<div class="info">
+												<h4>We Love Simplicity</h4>
+												<p>The GoLismero idea was born to make like easier for auditors who have to use many different, incompatible tools during a single audit.</p>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="col-md-6">
+
+										<div class="icon-box" data-animation-name="fadeInUp">
+											<div class="icon">
+												<i class="gi gi-cup"></i>
+											</div>
+											<div class="info">
+												<h4>We Build a Great Product</h4>
+												<p>We think it's important not to miss the product concept that represents the original idea, but without forgetting that when the contributions are repeated as give rise to a general requirement.</p>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<div class="col-md-6">
+
+										<div class="icon-box" data-animation-name="fadeInUp">
+											<div class="icon">
+												<i class="gi gi-heart"></i>
+											</div>
+											<div class="info">
+												<h4>We're Passionate</h4>
+												<p>The key to working on this project we want to create a comfortable and quality to audits from a single tool.</p>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="col-md-6">
+
+										<div class="icon-box" data-animation-name="fadeInUp">
+											<div class="icon">
+												<i class="gi gi-life-preserver"></i>
+											</div>
+                                            
+											<div class="info">
+												<h4>Awesome Support</h4>
+												<p>The key to evolve a tool is to give good support to its users.</p>
+											</div>
+										</div>
+
+									</div>
+
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="section-row no-padding-top">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-8 col-md-push-4">
+
+								<h2 class="section-separator-title">
+									<span data-shadow-text="Meet Our Team">Meet Our Team</span>
+								</h2>
+
+							</div>
+
+						</div>
+
+						<div class="row">
+
+							<div class="col-md-8 col-md-push-4">
+								<p class="lead">
+									Each individual contributor plays a great role in the development of GoLismero. All their contributions are more worth than gold making them an invaluable asset to the product.
+								</p>
+							</div>
+
+						</div>
+
+						<div class="row">
+                        
+                        	<div class="col-md-3 col-sm-6">
+                            
+                            </div>
+
+							<div class="col-md-3 col-sm-6">
+
+								<div class="team" data-animation-name="fadeInRight">
+
+									<div class="team-photo">
+										<figure>
+											<img src="golismero/team/1.jpg" alt="">
+											<figcaption>
+												<a href="#">
+													<i class="gi gi-resize-full"></i>
+												</a>
+											</figcaption>
+										</figure>
+									</div>
+
+									<div class="team-info">
+										<h4 class="team-name">Daniel Garc&iacute;a A.K.A. cr0hn</h4>
+										<p class="team-role">Backend developer</p>
+									</div>
+
+									<div class="team-data" data-name="Daniel García" data-role="Backend developer" data-photo="golismero/team/1.jpg">
+										<p>Daniel García (cr0hn) is a security researcher and pentester with whole experience in security world topics. Python senior developer and FreeBSD lover.</p><p>My roles in GoLismero project: Back-end developer and, some times, architect developer. And, when it's required, commercial too :-P.</p>
+
+										<div class="spacer-60 bordered"></div>
+
+										<div class="social-list">
+											<ul>
+												
+												<li><a href="https://twitter.com/ggdaniel" target="_blank"><i class="fa fa-twitter"></i></a></li>		
+												<li><a href="https://www.linkedin.com/in/garciagarciadaniel" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="http://www.cr0hn.com" target="_blank"><i class="fa fa-globe"></i></a></li>
+                                                
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-3 col-sm-6">
+
+								<div class="team" data-animation-name="fadeInRight">
+
+									<div class="team-photo">
+										<figure>
+											<img src="golismero/team/2.jpg" alt="">
+											<figcaption>
+												<a href="#">
+													<i class="gi gi-resize-full"></i>
+												</a>
+											</figcaption>
+										</figure>
+									</div>
+
+									<div class="team-info">
+										<h4 class="team-name">Mario Vilas</h4>
+										<p class="team-role">Core developer</p>
+									</div>
+
+									<div class="team-data" data-name="Mario Vilas" data-role="Core developer" data-photo="golismero/team/2.jpg">
+										<p>Mario Vilas is a security researcher living in Madrid, whose interests go from the low-level (exploiting, shellcoding) to the high-level (web application security, Python programming). He's the author of WinAppDbg (<a href="http://winappdbg.sourceforge.net" target="_blank">http://winappdbg.sourceforge.net</a>).</p><p>Mario's role in GoLismero is the development and maintenance of the core engine and the API for the plugins.</p>
+
+										<div class="spacer-60 bordered"></div>
+
+										<div class="social-list">
+											<ul>
+												
+												<li><a href="https://twitter.com/Mario_Vilas" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.linkedin.com/in/mariovilas" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://breakingcode.wordpress.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
+	
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-3 col-sm-6">
+
+								<div class="team" data-animation-name="fadeInRight">
+
+									<div class="team-photo">
+										<figure>
+											<img src="golismero/team/3.jpg" alt="">
+											<figcaption>
+												<a href="#">
+													<i class="gi gi-resize-full"></i>
+												</a>
+											</figcaption>
+										</figure>
+									</div>
+
+									<div class="team-info">
+										<h4 class="team-name">Raúl Requero</h4>
+										<p class="team-role">Frontend developer</p>
+									</div>
+
+									<div class="team-data" data-name="Raúl Requero" data-role="Frontend developer" data-photo="golismero/team/3.jpg">
+										<p>Raul Requero ia a passionate about technology, development and good practice, particularly agile methodologies and TDD. Currently lives and works in Madrid, where he performs tasks design and development of front-end architectures. Innovative character, always trying to learn and test the latest technologies.</p><p>In the project, responsible for developments in html, css and javascript both front-end and back-end present in GoLismero such as html report and the creation ide plugins.</p>
+
+										<div class="spacer-60 bordered"></div>
+
+										<div class="social-list">
+											<ul>
+												
+												<li><a href="https://twitter.com/rrequero" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="http://es.linkedin.com/in/requerogarciaraul/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="https://github.com/rrequero" target="_blank"><i class="fa fa-github"></i></a></li>
+												<li><a href="http://www.rrequero.com" target="_blank"><i class="fa fa-globe"></i></a></li>
+												
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="culture" class="section-row half-padding-top half-padding-bottom">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-6">
+								<hgroup>
+									<h4 class="text-primary text-uppercase">More About Us</h4>
+									<h2 class="text-highlight text-uppercase half-margin-bottom">Our Culture</h2>
+								</hgroup>
+								
+								<p>Why "Golismero"? Own slang term of Albacete (Spain) to refer to a person who practices the art of "golismear" eagerly informed of the issues-preferably morbid or negative-of the other. </p>
+								
+								<p>GoLismero was born few years ago, with the version 0.6.3, and it was a simple mapper. Now GoLismero is a complete framework with a plugin system and integration with a lot of open source tools.</p>
+
+								<div class="spacer-20 hidden-md hidden-lg"></div>
+							</div>
+
+							<div class="col-md-6">
+
+								<div class="media" data-animation-name="fadeInRight">
+									<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/tMaYuEdt7lQ" allowfullscreen frameborder="0"></iframe>
+								</div>
+								
+									
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+				
+				
+
+				<div class="section-row half-padding-bottom half-padding-top">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-3 col-sm-6">
+								<div class="counter" data-animation-name="fadeInUp">
+									<span class="number">5</span>
+									<span class="label">Scanners</span>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6">
+								<div class="counter" data-animation-name="fadeInUp">
+									<span class="number">614</span>
+									<span class="label">Downloads</span>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6">
+								<div class="counter" data-animation-name="fadeInUp">
+									<span class="number">4</span>
+									<span class="label">Conferences</span>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6">
+								<div class="counter" data-animation-name="fadeInUp">
+									<span class="number">20</span>
+									<span class="label">Plugins</span>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+				
+				
+				<div id="conferences" class="section-row no-padding-top half-padding-bottom">
+
+					<div class="container">
+
+						<div class="row" data-animation-chain-duration="1500">
+
+							<div class="col-md-12">
+
+								<h2 class="section-separator-title separator-align-left">
+									<span data-shadow-text="Conferences">Conferences</span>
+								</h2>
+
+								<p class="lead">
+									We are beginning to participate in major security conferences in Europe to present Golismero.
+								</p>
+
+								<div class="client-list">
+
+									<ul>
+
+										<li class="client">
+
+											<div class="client-logo" data-animation-name="fadeInUp">
+												<div class="logo">
+													<a href="http://owaspappseceu2013.sched.org/event/356996f01c3f3f0b70d45a560682ac78#.U5SOPfYR7HM" target="_blank">
+														<img src="golismero/conferences/1.png" alt="OWASP 2013">
+													</a>
+												</div>
+											</div>
+
+										</li>
+                                        
+                                        <li class="client">
+
+											<div class="client-logo" data-animation-name="fadeInUp">
+												<div class="logo">
+													<a href="http://navajanegra.com/ponencias.php" target="_blank">
+														<img src="golismero/conferences/4.png" alt="III Navaja Negra">
+													</a>
+												</div>
+											</div>
+
+										</li>
+
+										<li class="client">
+
+											<div class="client-logo" data-animation-name="fadeInUp">
+												<div class="logo">
+													<a href="http://www.rootedwarfare.com/agenda/" target="_blank">
+														<img src="golismero/conferences/2.png" alt="Rooted Warfare">
+													</a>
+												</div>
+											</div>
+
+										</li>
+
+										<li class="client">
+
+											<div class="client-logo" data-animation-name="fadeInUp">
+												<div class="logo">
+													<a href="https://www.owasp.org/index.php/Spain/Agenda_Chapter_Meeting" target="_blank">
+														<img src="golismero/conferences/3.png" alt="OWASP 2014">
+													</a>
+												</div>
+											</div>
+
+										</li>
+
+										
+
+									</ul>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+				
+				
+
+			</div>
+
+		</section>
+        
+        <section id="contact" class="section">
+
+			<div class="section-row-container">
+
+				<div class="section-row half-padding-bottom">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-lg-12">
+
+								<h1 class="section-title show-counter">
+									Get in Touch
+									<small>Feel free to contact us if you have something to say!</small>
+								</h1>
+
+							</div>
+
+						</div>
+
+
+						<div class="row">
+
+							<div class="col-md-8">
+
+								<form method="post" class="form-horizontal" action="https://formspree.io/hello@golismero.com">
+
+									<div class="form-group">
+										<div class="col-md-12">
+											<label for="_replyto">Your email:</label>
+											<input type="email" id="_replyto" name="_replyto" class="form-control required email" placeholder="Email">
+										</div>
+									</div>
+									<div class="form-group">									
+										<div class="col-md-12">
+											<label for="_subject">Subject:</label>
+											<input type="text" id="_subject" name="_subject" class="form-control required" placeholder="Subject">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<label for="message">Message:</label>
+											<textarea id="message" name="message" rows="6" class="form-control required" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<input type="submit" value="Submit" class="btn btn-sm btn-block btn-primary">
+										</div>
+									</div>
+								</form>
+
+							</div>
+
+							<div class="col-md-4">
+
+								<aside class="sidebar">
+
+									<div class="sidebar-block">
+										<p>
+											<strong class="text-semibold">Golismero Project</strong><br>										
+											Madrid<br>
+											Spain
+										</p>
+									</div>
+
+									<div class="sidebar-block">
+										<p class="lead">
+											<strong>E:</strong> <a href="mailto:hello@golismero.com">hello@golismero.com</a><br>
+										</p>
+									</div>
+
+								</aside>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+		</section>
+
+		
+
+		
+
+	</div>
+
+	<footer class="site-footer">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="footer-logo">
+						<a href="#"><img src="golismero/img/logo-wide.png" alt=""></a>
+					</div>
+
+					<p>Copyright &copy; 2014. <a href="#">Golismero Project</a>. All Rights Reserved.</p>
+
+					<div class="social-list">
+						<ul>	
+							<li><a href="https://twitter.com/golismero_pro" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.youtube.com/user/golismeroproject" target="_blank"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="https://github.com/golismero" target="_blank"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/golismero.packed.min.js"></script>
+
+<script type="text/javascript" src="assets/plugins/royalslider/jquery.royalslider.min.js"></script>
+<script type="text/javascript" src="assets/plugins/mfp/jquery.mfp-0.9.9.js"></script>
+<script type="text/javascript" src="assets/plugins/mediaelement/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="assets/plugins/form/jquery.form.min.js"></script>
+<script type="text/javascript" src="assets/plugins/form/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-48822495-2', 'golismero.com');
+ ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
